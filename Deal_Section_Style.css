@@ -1,0 +1,83 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: lora;
+}
+
+.Cards {
+  width: 200px;
+
+  padding: 25px;
+  background-color: white;
+  transition: transform 0.2s;
+  border-radius: 5px;
+}
+.image img {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.Cards:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+p.Details_container {
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: normal;
+}
+.Title_container {
+  text-align: center;
+  padding: 10px 20px;
+}
+.Deal_Block h2 {
+  background: rgb(234, 183, 250);
+  color: white;
+  width: 200px;
+  font-size: 24px;
+  padding: 5px;
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+.Deal_Block h2::after {
+  content: "";
+  border-top: 50px solid rgb(231, 148, 248);
+  border-right: 42px solid transparent;
+  position: relative;
+  left: 35px;
+  top: 45px;
+}
+.countdown {
+  font-size: 35px;
+  font-weight: 100;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+/* @media screen and (min-width: 480px) {
+  .countdown {
+    font-size: 42px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .countdown {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .countdown {
+    font-size: 72px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .countdown {
+    font-size: 88px;
+  }
+} */
